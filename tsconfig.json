@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ES6",
+        "module": "ES2020",
+        "outDir": "./js",
+        "moduleResolution": "node"
+    },
+    "include": ["src"]
+}
