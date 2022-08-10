@@ -2,6 +2,8 @@ import { describe, it } from 'mocha';
 import * as td from 'testdouble';
 import * as assert from 'node:assert';
 
+console.log("nodejs version:", process.version);
+
 describe('Register', function () {
     it('Should mock fs', async function () {
         const fsMock = await td.replaceEsm('fs');
