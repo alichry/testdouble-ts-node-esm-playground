@@ -4,7 +4,7 @@ import * as assert from 'node:assert';
 
 describe('Memory', function () {
     it('Should mock ps', async function () {
-        const psMock = await td.replaceEsm('./ps.js');
+        const psMock = await td.replaceEsm('./ps.ts');
         td.when(psMock.list())
             .thenReturn([
                 {
